@@ -2,14 +2,23 @@ package sistema.controller;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 
 import javax.swing.JComponent;
 import javax.swing.JOptionPane;
+
+import sistema.entity.Cliente;
+import sistema.service.ClienteService;
 
 // extends dá pronto
 // implements dá obrigação
 
 public class ListagemClienteController implements ActionListener {
+    private ClienteService service = new ClienteService();
+
+    public ArrayList<Cliente> getAllClientes() {
+        return service.getAllClientes();
+    }
 
     @Override
     public void actionPerformed(ActionEvent e) {
