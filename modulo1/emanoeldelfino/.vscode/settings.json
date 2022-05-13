@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    // C:\JAVA\jdk-11.0.2\bin\java .\src\Exercicio29.java arg1 arg2 arg3
+    // C:\JAVA\jdk-11.0.2\bin\java -> Java
+    // Problema para identificar .vscode que é subdiretório de um diretório com espaços
+}
