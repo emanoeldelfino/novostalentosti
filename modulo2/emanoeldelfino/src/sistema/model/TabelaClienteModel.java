@@ -18,7 +18,6 @@ public class TabelaClienteModel extends AbstractTableModel {
 
     @Override
     public int getRowCount() {
-        // System.out.println("teste " + );
         return controller.getAllClientes().size();
     }
 
