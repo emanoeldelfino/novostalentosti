@@ -29,6 +29,7 @@ public class ListagemCliente extends JFrame {
     public ListagemCliente() {
         setSize(500, 400);
         setTitle("Listagem de Clientes");
+         // Para o programa ao clicar para fechar a tela
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         criaPaineis(); // chama o método
         setVisible(true);

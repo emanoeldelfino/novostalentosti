@@ -9,6 +9,7 @@ import javax.swing.JOptionPane;
 
 import sistema.entity.Cliente;
 import sistema.service.ClienteService;
+import sistema.view.FormularioCliente;
 
 // extends dá pronto
 // implements dá obrigação
@@ -41,7 +42,8 @@ public class ListagemClienteController implements ActionListener {
     }
 
     private void btnNovoClique() {
-        JOptionPane.showMessageDialog(null, "Botão Novo");
+        // JOptionPane.showMessageDialog(null, "Botão Novo");
+        FormularioCliente formulario = new FormularioCliente();
     }
 
     private void btnAlterarClique() {
